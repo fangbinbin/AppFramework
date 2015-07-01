@@ -9,6 +9,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
@@ -54,6 +55,7 @@ public class PasscodeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_passcode);
 
         if (getIntent().getBooleanExtra("protect", false) == true) {
