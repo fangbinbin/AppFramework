@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
     private Button btnSignInActivity;
     private Button btnPasscodeActivity;
     private Button btnSlidingMenuActivity;
+    private Button btnSlidingMenuV2Activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +45,15 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SlidingMenuActivity.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
+
+        btnSlidingMenuV2Activity = (Button)findViewById(R.id.btnSlidingMenuV2Activity);
+        btnSlidingMenuV2Activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SlidingMenuV2Activity.class);
                 MainActivity.this.startActivity(intent);
             }
         });

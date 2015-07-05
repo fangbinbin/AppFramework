@@ -27,4 +27,10 @@
         android:text="@string/sliding_menu_activity_button"
         android:id="@+id/btnSlidingMenuActivity" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sliding_menu_activity_v2_button"
+        android:id="@+id/btnSlidingMenuV2Activity" />
+
 </LinearLayout>

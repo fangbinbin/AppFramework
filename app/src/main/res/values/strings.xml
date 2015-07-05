@@ -255,6 +255,8 @@
     <string name="passcode_activity_button">Passcode Activity</string>
     <string name="sliding_menu_activity_button">Sliding Menu Activity</string>
     <string name="title_activity_sliding_menu">SlidingMenuActivity</string>
+    <string name="sliding_menu_activity_v2_button">Sliding Menu V2 Activity</string>
+    <string name="title_activity_sliding_menu_v2">SlidingMenuV2Activity</string>
 
     <!-- begin sliding menu string values -->
     <string name="drawer_open">Slider Menu Opened</string>
