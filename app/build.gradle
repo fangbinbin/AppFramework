@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.1.1'
     compile files('libs/crittercism_v3_0_8_sdkonly.jar')
     compile files('libs/gcm.jar')
@@ -44,6 +44,7 @@ dependencies {
     compile files('libs/httpmime-4.2.3.jar')
     compile files('libs/imageloader-core-1.5.8.jar')
     compile files('libs/universal-image-loader-1.8.4.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
 }
 
 

@@ -64,6 +64,11 @@
             android:name=".SlidingMenuV2Activity"
             android:label="@string/title_activity_sliding_menu_v2" >
         </activity>
+
+        <activity
+            android:name=".SlidingMenuV3Activity"
+            android:label="@string/title_activity_sliding_menu_v3" >
+        </activity>
     </application>
 
 </manifest>

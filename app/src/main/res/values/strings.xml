@@ -257,6 +257,8 @@
     <string name="title_activity_sliding_menu">SlidingMenuActivity</string>
     <string name="sliding_menu_activity_v2_button">Sliding Menu V2 Activity</string>
     <string name="title_activity_sliding_menu_v2">SlidingMenuV2Activity</string>
+    <string name="sliding_menu_activity_v3_button">Sliding Menu V3 Activity</string>
+    <string name="title_activity_sliding_menu_v3">SlidingMenuV3Activity</string>
 
     <!-- begin sliding menu string values -->
     <string name="drawer_open">Slider Menu Opened</string>
